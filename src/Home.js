@@ -6,7 +6,7 @@ import Corona from './logos/Corona.jpg';
 import Michelob from './logos/Michelob.jpg';
 import Natural from './logos/Natural.jpg';
 import ShockTop from './logos/ShockTop.jpg';
-import {HashLink as Link } from 'react-router-hash-link';
+import { HashLink } from 'react-router-hash-link';
 
 
 function Home() {
@@ -37,50 +37,50 @@ function Home() {
       <div className='container pt-3'>
         <p><strong>Proud Supplier of</strong></p>
         <div className='row pt-3'>
-          <Link className='col-sm-4' to='/shop/#budweiser' title='Budwesier'>
+          <HashLink className='col-sm-4' to='/shop/#budweiser' title='Budwesier'>
             <img src={Budweiser}
               className='p-2'
               width='100%' 
               alt='Budweiser Logo'
               ></img>
-          </Link>
-          <a className='col-sm-4' href='/#/shop/#busch' title='Buschhhhhhh'>
+          </HashLink>
+          <HashLink className='col-sm-4' to='/shop/#busch' title='Buschhhhhhh'>
             <img src={Busch}
             className='p-2'
             width='100%' 
             alt='Busch Lite Logo'
             ></img>
-          </a>
-          <a className='col-sm-4' href='/#/shop/#corona' title='Corona Extra'>
+          </HashLink>
+          <HashLink className='col-sm-4' to='/shop/#corona' title='Corona Extra'>
             <img src={Corona}
             className='p-2'
             width='100%' 
             alt='Corona Logo'
             ></img>
-          </a>
+          </HashLink>
         </div>
         <div className='row pt-3 pb-3'>
-        <a className='col-sm-4' href='/#/shop/#michelob' title='Michelob Ultra'>
+        <HashLink className='col-sm-4' to='/shop/#michelob' title='Michelob Ultra'>
             <img src={Michelob}
             className='p-2'
             width='100%' 
             alt='Michelob Ultra Logo'
             ></img>
-          </a>
-          <a className='col-sm-4' href='/#/shop/#natural' title='Natty Light'>
+          </HashLink>
+          <HashLink className='col-sm-4' to='/shop/#natural' title='Natty Light'>
             <img src={Natural}
             className='p-2'
             width='100%' 
             alt='Natural Light Logo'
             ></img>
-          </a>
-          <a className='col-sm-4' href='/#/shop/shocktop' title='Shock Top'>
+          </HashLink>
+          <HashLink className='col-sm-4' to='/shop/#shocktop' title='Shock Top'>
             <img src={ShockTop}
             className='p-2'
             width='85%' 
             alt='Shock Top Logo'
             ></img>
-          </a>
+          </HashLink>
         </div>
       </div>
     </div>

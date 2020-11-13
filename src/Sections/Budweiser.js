@@ -7,7 +7,7 @@ import Bud4 from './budweiser-photos/bud4.jpg';
 
 const Budweiser = (props) => {
     return (
-        <div id='budwesier'>
+        <div id='budweiser'>
             <div className='container text-center'>
                 <h3 className='pt-4 pb-2'>Budweiser</h3>
                 <div className='row'>

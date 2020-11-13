@@ -7,7 +7,7 @@ import Busch4 from './busch-photos/busch4.jpg';
 
 const Busch = (props) => {
     return (
-        <div id='busch'>
+        <div id="busch">
             <div className='container text-center'>
                 <h3 className='pt-4 pb-2'>Busch</h3>
                 <div className='row'>
