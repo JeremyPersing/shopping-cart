@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import {HashRouter, Switch, Route} from 'react-router-dom';
 import Home from './Home';
 import Nav from './Components/Nav';
 import Shop from './Shop';
@@ -12,17 +12,16 @@ const App = () => {
 
     return(
         <div>
-            <BrowserRouter>
+            <HashRouter>
                 <Nav />
-                <Route path='/' exact component={Home}/>
-                <Switch>
-                    
+                <Switch>  
+                    <Route path='/' exact component={Home}/>
                     <Route path='/shop' render={props => (<Shop {...props} 
                     totalState={total} setTotal={setTotal} cartState={cartState} setCartState={setCartState}/>)} />
                     <Route path='/cart' render={props => (<Cart {...props}
                     totalState={total} setTotal={setTotal} cartState={cartState} setCartState={setCartState}/>)}/>
                 </Switch>
-            </BrowserRouter>
+            </HashRouter>
         </div>
     )
 }
