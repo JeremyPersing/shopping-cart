@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/shopping-cart/static/js/main.ac72394a.chunk.js",
-    "main.js.map": "/shopping-cart/static/js/main.ac72394a.chunk.js.map",
+    "main.js": "/shopping-cart/static/js/main.f3a94bfa.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.f3a94bfa.chunk.js.map",
     "runtime-main.js": "/shopping-cart/static/js/runtime-main.2c057c56.js",
     "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.2c057c56.js.map",
-    "static/js/2.8457128a.chunk.js": "/shopping-cart/static/js/2.8457128a.chunk.js",
-    "static/js/2.8457128a.chunk.js.map": "/shopping-cart/static/js/2.8457128a.chunk.js.map",
+    "static/js/2.00c07a0b.chunk.js": "/shopping-cart/static/js/2.00c07a0b.chunk.js",
+    "static/js/2.00c07a0b.chunk.js.map": "/shopping-cart/static/js/2.00c07a0b.chunk.js.map",
     "index.html": "/shopping-cart/index.html",
-    "static/js/2.8457128a.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.8457128a.chunk.js.LICENSE.txt",
+    "static/js/2.00c07a0b.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.00c07a0b.chunk.js.LICENSE.txt",
     "static/media/Budweiser.0172cd68.jpg": "/shopping-cart/static/media/Budweiser.0172cd68.jpg",
     "static/media/Busch.1c32286d.gif": "/shopping-cart/static/media/Busch.1c32286d.gif",
     "static/media/Corona.aeffcab9.jpg": "/shopping-cart/static/media/Corona.aeffcab9.jpg",
@@ -43,7 +43,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2c057c56.js",
-    "static/js/2.8457128a.chunk.js",
-    "static/js/main.ac72394a.chunk.js"
+    "static/js/2.00c07a0b.chunk.js",
+    "static/js/main.f3a94bfa.chunk.js"
   ]
 }
