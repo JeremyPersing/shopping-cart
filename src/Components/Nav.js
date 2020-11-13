@@ -9,12 +9,12 @@ const Nav = () => {
     return (
         <nav className="navbar sticky-top navbar-expand navbar-light bg-light"> 
             <ul className='nav navbar-nav pl-2'>
-                <Link  to='/'>
+                <Link  to='/shopping-cart'>
                     <li className='nav-item nav-link'>
                         <img src={Beer} alt='beer logo' height='30px'></img>
                     </li>
                 </Link>
-                <Link style={{textDecoration: 'none'}} to='/'>
+                <Link style={{textDecoration: 'none'}} to='/shopping-cart'>
                     <li className='nav-item nav-link'>
                         Home
                     </li>
