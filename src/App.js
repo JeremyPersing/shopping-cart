@@ -15,7 +15,7 @@ const App = () => {
             <BrowserRouter>
                 <Nav />
                 <Switch>
-                    <Route path='/' exact component={Home}/>
+                    <Route path='/home' exact component={Home}/>
                     <Route path='/shop' render={props => (<Shop {...props} 
                     totalState={total} setTotal={setTotal} cartState={cartState} setCartState={setCartState}/>)} />
                     <Route path='/cart' render={props => (<Cart {...props}
