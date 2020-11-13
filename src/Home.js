@@ -14,24 +14,20 @@ function Home() {
     <div className='text-center'>
       <div>
         <h1 className='pt-3'>Welcome to Cerveza Heaven</h1>
-        <h5>The land of all beers</h5>
+        <h5>The land of American beer and Corona</h5>
         <img src={Barrels} style={{width: '500px'}} className='mt-2 mb-2 img-thumbnail' alt='Barrels of Beer'></img>
       </div>
       <div>
         <h2>Our Story</h2>
-        <p className='p-5 ml-5 mr-5'>
-          Cerveza Heaven was started by a pair of young entrepreneurs that had a love for beer. 
-          It did not matter whether the beer came from a local gas station, their uncle's garage brewery,
-          or the cooler section of a Walmart. One day, Bill and Ted decided to switch it up from their long time 
-          favorite beer, Busch Lite, and try a beer so magnificent that a virus was named after it. That's right,
-          Bill and Ted tried the one and only Corona. They soon found out that Mexican beer can be just as good, if
-          not better than the classNamey Busch Lite. After having a few sips of Corona, Ted had an epiphany. He told Bill
-          that they should open a liquor store and sell only Anheuser-Busch and Corona products. Bill was ecstatic
-          about the idea and agreed to join Ted in the business. Bill and Ted needed an investor in their business, and this 
-          is where I came into the picture. I decided to help fund Bill and Ted's idea, and we came to an agreement that I would get
-          69% of the business. Unfortunately, both of them have left me stranded with the business. You see,
-          Bill and Ted went on a haitus, an excellent adventure if you will. I have not heard from them in years, however I bring you 
-          <strong> Cerveza Heaven</strong>, the heaven for Corona and Busch fans alike.
+        <p className='p-5 ml-5 mr-5'> 
+          Cerveza Heaven is the place to buy Anheuser-Busch products and the great Mexican beer
+          known as Corona. We chose these products because they were made on the concet of
+          integrity. The makers knew what they wanted and decided to set a goal. Not only did
+          the makers reach that goal, but they surpassed it by far, bringing the world 
+          delicious tasting brews that can be enjoyed not only with friends, but also family.
+          As a badge of merit, we decided to put integrity at our forefront in this business, 
+          that is why we offer our products at a very honest price. So please,
+          make yourself an order and come join us in Cerveza Heaven.
         </p>
       </div>
       <div className='container pt-3'>
