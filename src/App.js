@@ -14,11 +14,12 @@ const App = () => {
         <div>
             <BrowserRouter>
                 <Nav />
+                <Route path='/' exact component={Home}/>
                 <Switch>
-                    <Route path='/shopping-cart/home' exact component={Home}/>
-                    <Route path='/shopping-cart/shop' render={props => (<Shop {...props} 
+                    <Route path='/' exact component={Home}/>
+                    <Route path='/shop' render={props => (<Shop {...props} 
                     totalState={total} setTotal={setTotal} cartState={cartState} setCartState={setCartState}/>)} />
-                    <Route path='/shopping-cart/cart' render={props => (<Cart {...props}
+                    <Route path='/cart' render={props => (<Cart {...props}
                     totalState={total} setTotal={setTotal} cartState={cartState} setCartState={setCartState}/>)}/>
                 </Switch>
             </BrowserRouter>

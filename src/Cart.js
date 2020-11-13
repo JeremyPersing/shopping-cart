@@ -10,7 +10,7 @@ const Cart = (props) => {
                     <h5>Total: ${Number(props.totalState).toFixed(2)}</h5>
                     <div className='pt-3 row'>
                         <div className='mx-auto'>
-                            <Link to='/shopping-cart/shop'>
+                            <Link to='/shop'>
                                 <button className='btn btn-secondary mr-5'>Continue Shopping</button>
                             </Link>
                             <button className='btn btn-primary ml-5' onClick={() => alert('Sorry you can\'t actually checkout')}>Checkout</button>
